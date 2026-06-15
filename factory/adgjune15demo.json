@@ -1,0 +1,15 @@
+{
+	"name": "adgjune15demo",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9dd3ce25-b02b-46dd-b100-190e85ddb218",
+		"tenantId": "fc4e8bf7-7900-44da-a463-fe3e77491940"
+	}
+}
