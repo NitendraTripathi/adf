@@ -1,0 +1,15 @@
+{
+	"name": "adfdemopocjune20",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f00aa391-403c-4d09-9ef5-883f26db2c38",
+		"tenantId": "fc4e8bf7-7900-44da-a463-fe3e77491940"
+	}
+}

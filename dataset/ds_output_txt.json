@@ -1,0 +1,18 @@
+{
+	"name": "ds_output_txt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_output_txt",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "output"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

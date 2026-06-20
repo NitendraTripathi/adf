@@ -1,0 +1,19 @@
+{
+	"name": "ds_input_txt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_input_txt",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Employee_Test_Records.txt",
+				"container": "input"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
